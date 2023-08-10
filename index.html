@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <h1>To-Do-List</h1>
+    <div class="conteudo">
+        <div class="add">
+            <input type="text" id="input-new" placeholder="Adicionar nova task">
+            <button onclick="newTask()" id="btn-new" title="Adicionar nova task">
+                <i class="bi bi-plus-lg"></i>
+            </button>
+        </div>
+        <div class="content--body">
+            <ol id="list"></ol>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
