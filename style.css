@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.conteudo {
+    background-color: rgb(10, 10, 10);
+    gap: 4rem;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 15px;
+}
+.add {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+#input-new,
+#btn-new {
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    padding: 1rem;
+}
+#input-new {
+    width: 20rem;
+    border-radius: 1.4rem;
+}
+#btn-new {
+    background-color: rgb(32, 32, 32);
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: .4s;
+}
+#btn-new:hover {
+    background-color: rgb(22, 22, 22);
+}
+#list {
+    display: flex;
+    flex-direction: column;
+    gap: .9rem;
+    padding: 0;
+}
+#list > li {
+    list-style-type: none;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#list > li:hover{
+    background-color: rgb(22, 22, 22);
+    transition: .4s;
+    border-radius: 1rem;
+    padding-left: 1rem;
+}
+.ok {
+    border: none;
+    background-color: rgb(47, 255, 92);
+    color: white;
+    padding: .3rem .6rem;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .4s;
+}
+.ok:hover {
+    background-color: rgb(51, 149, 26);
+}
