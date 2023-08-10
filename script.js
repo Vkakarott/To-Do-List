@@ -4,7 +4,7 @@ function loadList() {
     let list = JSON.parse(localStorage.getItem('TDL') || '[]');
     bloco.innerHTML = '';
     list.forEach(item => {
-        bloco.innerHTML += `<li>${item}<button class="ok" data-task='${item}'"><i class="bi bi-bookmark-check-fill"></i></button> </li>`;
+        bloco.innerHTML += `<li>${item}<button class="ok" data-task='${item}'"><i class="bi bi-check-lg"></i></button> </li>`;
     });
 
     const btns = document.querySelectorAll('.ok');
